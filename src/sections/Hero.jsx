@@ -7,7 +7,8 @@ import { Suspense } from 'react';
 import { useMediaQuery } from "react-responsive";
 import { calculateSizes } from "../constants/index.js"
 import Target from "../components/Target.jsx";
-import ReactLogo from "../components/BMO.jsx";
+import BMO from "../components/BMO.jsx";
+import Block  from "../components/Block.jsx";
 
 const Hero = () => {
   // const x = useControls('HackerRoom', {
@@ -82,7 +83,8 @@ const Hero = () => {
 
             <group>
               <Target position={sizes.targetPosition} />
-              <ReactLogo position={sizes.reactLogoPosition} />
+              <BMO position={sizes.reactLogoPosition} />
+              <Block position={sizes.cubePosition}/>
             </group>
 
             <ambientLight intensity={1}/>  
