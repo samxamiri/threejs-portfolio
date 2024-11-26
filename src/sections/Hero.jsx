@@ -7,6 +7,7 @@ import { Suspense } from 'react';
 import { useMediaQuery } from "react-responsive";
 import { calculateSizes } from "../constants/index.js"
 import Target from "../components/Target.jsx";
+import ReactLogo from "../components/BMO.jsx";
 
 const Hero = () => {
   // const x = useControls('HackerRoom', {
@@ -67,7 +68,7 @@ const Hero = () => {
 
       <div className="w-full h-full absolute inset-0">
           {/* <Leva /> */}
-          <Canvas className="w-full h-full">
+          <Canvas className="w-full h-full" >
             <Suspense fallback={<CanvasLoader/>}>
 
             <PerspectiveCamera makeDefault 
@@ -81,6 +82,7 @@ const Hero = () => {
 
             <group>
               <Target position={sizes.targetPosition} />
+              <ReactLogo position={sizes.reactLogoPosition} />
             </group>
 
             <ambientLight intensity={1}/>  
