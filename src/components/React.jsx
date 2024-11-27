@@ -24,7 +24,7 @@ const ReactLogo = (props) => {
     gsap.to(groupRef.current.rotation, {
       y: `+=${Math.PI * 2}`, // Rotate 360 degrees around Y-axis
       x: `-=${Math.PI * 2}`, // Rotate -360 degrees around X-axis
-      duration: 12,
+      duration: 15,
       ease: 'power1.inOut',
       repeat: -1, // Repeat indefinitely
       repeatDelay: 0, // Delay between repeats
