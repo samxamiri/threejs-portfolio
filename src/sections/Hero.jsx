@@ -9,6 +9,8 @@ import { calculateSizes } from "../constants/index.js"
 import Target from "../components/Target.jsx";
 import BMO from "../components/BMO.jsx";
 import Block  from "../components/Block.jsx";
+import React from "../components/React.jsx";
+import Macbook from "../components/Macbook.jsx";
 
 const Hero = () => {
   // const x = useControls('HackerRoom', {
@@ -82,9 +84,11 @@ const Hero = () => {
             />
 
             <group>
-              <Target position={sizes.targetPosition} />
+              <Macbook position={sizes.targetPosition} />
+              {/* <Target position={sizes.targetPosition} /> */}
               <BMO position={sizes.reactLogoPosition} />
               <Block position={sizes.cubePosition}/>
+              <React position={sizes.ringPosition} />
             </group>
 
             <ambientLight intensity={1}/>  
