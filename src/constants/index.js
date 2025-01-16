@@ -29,7 +29,7 @@ export const myProjects = [
     desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
     subdesc:
       'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-    href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
+    href: 'https://banking-two-chi.vercel.app/sign-in',
     texture: '/textures/project/project4.mp4',
     logo: '/assets/project-logo4.png',
     logoStyle: {
@@ -81,9 +81,9 @@ export const workExperiences = [
     name: 'RadioIP Software Inc.',
     pos: 'Software Engineer Intern',
     duration: 'May 2024 - December 2024',
-    title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
+    title: "•	Developed the front-end for a large-scale, distributed application enhancing secure network access for over 1,500 first responders.",
     icon: '/assets/radioIP.png',
-    animation: 'victory',
+    animation: 'salute',
   },
 
 

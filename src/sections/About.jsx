@@ -27,7 +27,7 @@ const About = () => {
                   object-contain'/>
                   <div>
                     <p className='grid-headtext'>Hi, I'm Sam</p>
-                    <p className='grid-subtext'>With 1 year of experience, I have honed my skills in frontend development</p>
+                    <p className='grid-subtext'>I am currently studying Computer Science at Concordia University and I have a total of 8 months of experience in the field.</p>
                   </div>
               </div>
           </div>
@@ -38,7 +38,7 @@ const About = () => {
                   className="w-full sm:h-[276px] h-fit object-contain" />
                   <div>
                       <p className='grid-headtext'>Tech Stack</p>
-                      <p className='grid-subtext'>I specialize in JavaScript/TypeScript with a focus on React.</p>
+                      <p className='grid-subtext'>During my 8 months of internship, I used JavaScript/TypeScript with React.</p>
                   </div>
               </div>
           </div>
@@ -72,7 +72,8 @@ const About = () => {
                   className='w-full sm:h-[266px] h-fit object-contain' />
                   <div>
                       <p className='grid-headtext'> My Passion for Coding</p>
-                      <p className='grid-subtext'> I love solving problems and building things through code. Coding isn't just my profession - it is my passion.</p>
+                      <p className='grid-subtext'> 
+                      I enjoy tackling challenges and creating solutions through coding. It's more than just a job to me—it's something I truly care about.</p>
                   </div>
               </div>
           </div>
